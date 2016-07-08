@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBE141A41D306E0400124174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE141A31D306E0400124174 /* AppDelegate.swift */; };
+		EBE141A61D306E0400124174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE141A51D306E0400124174 /* ViewController.swift */; };
+		EBE141A91D306E0400124174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE141A71D306E0400124174 /* Main.storyboard */; };
+		EBE141AC1D306E0400124174 /* Bizzy_Books.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBE141AA1D306E0400124174 /* Bizzy_Books.xcdatamodeld */; };
+		EBE141AE1D306E0400124174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE141AD1D306E0400124174 /* Assets.xcassets */; };
+		EBE141B11D306E0400124174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE141AF1D306E0400124174 /* LaunchScreen.storyboard */; };
+		EBE141BC1D306E0400124174 /* Bizzy_BooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE141BB1D306E0400124174 /* Bizzy_BooksTests.swift */; };
+		EBE141C71D306E0400124174 /* Bizzy_BooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE141C61D306E0400124174 /* Bizzy_BooksUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBE141B81D306E0400124174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBE141981D306E0400124174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE1419F1D306E0400124174;
+			remoteInfo = "Bizzy Books";
+		};
+		EBE141C31D306E0400124174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBE141981D306E0400124174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE1419F1D306E0400124174;
+			remoteInfo = "Bizzy Books";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBE141A01D306E0400124174 /* Bizzy Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bizzy Books.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE141A31D306E0400124174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBE141A51D306E0400124174 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBE141A81D306E0400124174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBE141AB1D306E0400124174 /* Bizzy_Books.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bizzy_Books.xcdatamodel; sourceTree = "<group>"; };
+		EBE141AD1D306E0400124174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBE141B01D306E0400124174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBE141B21D306E0400124174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE141B71D306E0400124174 /* Bizzy BooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bizzy BooksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE141BB1D306E0400124174 /* Bizzy_BooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bizzy_BooksTests.swift; sourceTree = "<group>"; };
+		EBE141BD1D306E0400124174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE141C21D306E0400124174 /* Bizzy BooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bizzy BooksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE141C61D306E0400124174 /* Bizzy_BooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bizzy_BooksUITests.swift; sourceTree = "<group>"; };
+		EBE141C81D306E0400124174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBE1419D1D306E0400124174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE141B41D306E0400124174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE141BF1D306E0400124174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBE141971D306E0400124174 = {
+			isa = PBXGroup;
+			children = (
+				EBE141A21D306E0400124174 /* Bizzy Books */,
+				EBE141BA1D306E0400124174 /* Bizzy BooksTests */,
+				EBE141C51D306E0400124174 /* Bizzy BooksUITests */,
+				EBE141A11D306E0400124174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBE141A11D306E0400124174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBE141A01D306E0400124174 /* Bizzy Books.app */,
+				EBE141B71D306E0400124174 /* Bizzy BooksTests.xctest */,
+				EBE141C21D306E0400124174 /* Bizzy BooksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBE141A21D306E0400124174 /* Bizzy Books */ = {
+			isa = PBXGroup;
+			children = (
+				EBE141A31D306E0400124174 /* AppDelegate.swift */,
+				EBE141A51D306E0400124174 /* ViewController.swift */,
+				EBE141A71D306E0400124174 /* Main.storyboard */,
+				EBE141AD1D306E0400124174 /* Assets.xcassets */,
+				EBE141AF1D306E0400124174 /* LaunchScreen.storyboard */,
+				EBE141B21D306E0400124174 /* Info.plist */,
+				EBE141AA1D306E0400124174 /* Bizzy_Books.xcdatamodeld */,
+			);
+			path = "Bizzy Books";
+			sourceTree = "<group>";
+		};
+		EBE141BA1D306E0400124174 /* Bizzy BooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBE141BB1D306E0400124174 /* Bizzy_BooksTests.swift */,
+				EBE141BD1D306E0400124174 /* Info.plist */,
+			);
+			path = "Bizzy BooksTests";
+			sourceTree = "<group>";
+		};
+		EBE141C51D306E0400124174 /* Bizzy BooksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBE141C61D306E0400124174 /* Bizzy_BooksUITests.swift */,
+				EBE141C81D306E0400124174 /* Info.plist */,
+			);
+			path = "Bizzy BooksUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBE1419F1D306E0400124174 /* Bizzy Books */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE141CB1D306E0400124174 /* Build configuration list for PBXNativeTarget "Bizzy Books" */;
+			buildPhases = (
+				EBE1419C1D306E0400124174 /* Sources */,
+				EBE1419D1D306E0400124174 /* Frameworks */,
+				EBE1419E1D306E0400124174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bizzy Books";
+			productName = "Bizzy Books";
+			productReference = EBE141A01D306E0400124174 /* Bizzy Books.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBE141B61D306E0400124174 /* Bizzy BooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE141CE1D306E0400124174 /* Build configuration list for PBXNativeTarget "Bizzy BooksTests" */;
+			buildPhases = (
+				EBE141B31D306E0400124174 /* Sources */,
+				EBE141B41D306E0400124174 /* Frameworks */,
+				EBE141B51D306E0400124174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBE141B91D306E0400124174 /* PBXTargetDependency */,
+			);
+			name = "Bizzy BooksTests";
+			productName = "Bizzy BooksTests";
+			productReference = EBE141B71D306E0400124174 /* Bizzy BooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBE141C11D306E0400124174 /* Bizzy BooksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE141D11D306E0400124174 /* Build configuration list for PBXNativeTarget "Bizzy BooksUITests" */;
+			buildPhases = (
+				EBE141BE1D306E0400124174 /* Sources */,
+				EBE141BF1D306E0400124174 /* Frameworks */,
+				EBE141C01D306E0400124174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBE141C41D306E0400124174 /* PBXTargetDependency */,
+			);
+			name = "Bizzy BooksUITests";
+			productName = "Bizzy BooksUITests";
+			productReference = EBE141C21D306E0400124174 /* Bizzy BooksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBE141981D306E0400124174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Caldwell Contracting LLC";
+				TargetAttributes = {
+					EBE1419F1D306E0400124174 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EBE141B61D306E0400124174 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EBE1419F1D306E0400124174;
+					};
+					EBE141C11D306E0400124174 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EBE1419F1D306E0400124174;
+					};
+				};
+			};
+			buildConfigurationList = EBE1419B1D306E0400124174 /* Build configuration list for PBXProject "Bizzy Books" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBE141971D306E0400124174;
+			productRefGroup = EBE141A11D306E0400124174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBE1419F1D306E0400124174 /* Bizzy Books */,
+				EBE141B61D306E0400124174 /* Bizzy BooksTests */,
+				EBE141C11D306E0400124174 /* Bizzy BooksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBE1419E1D306E0400124174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE141B11D306E0400124174 /* LaunchScreen.storyboard in Resources */,
+				EBE141AE1D306E0400124174 /* Assets.xcassets in Resources */,
+				EBE141A91D306E0400124174 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE141B51D306E0400124174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE141C01D306E0400124174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBE1419C1D306E0400124174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE141A61D306E0400124174 /* ViewController.swift in Sources */,
+				EBE141AC1D306E0400124174 /* Bizzy_Books.xcdatamodeld in Sources */,
+				EBE141A41D306E0400124174 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE141B31D306E0400124174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE141BC1D306E0400124174 /* Bizzy_BooksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE141BE1D306E0400124174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE141C71D306E0400124174 /* Bizzy_BooksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBE141B91D306E0400124174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBE1419F1D306E0400124174 /* Bizzy Books */;
+			targetProxy = EBE141B81D306E0400124174 /* PBXContainerItemProxy */;
+		};
+		EBE141C41D306E0400124174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBE1419F1D306E0400124174 /* Bizzy Books */;
+			targetProxy = EBE141C31D306E0400124174 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBE141A71D306E0400124174 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE141A81D306E0400124174 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBE141AF1D306E0400124174 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE141B01D306E0400124174 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBE141C91D306E0400124174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBE141CA1D306E0400124174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBE141CC1D306E0400124174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bizzy Books/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bizzybooks.Bizzy-Books";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBE141CD1D306E0400124174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bizzy Books/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bizzybooks.Bizzy-Books";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBE141CF1D306E0400124174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bizzy BooksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bizzybooks.Bizzy-BooksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bizzy Books.app/Bizzy Books";
+			};
+			name = Debug;
+		};
+		EBE141D01D306E0400124174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bizzy BooksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bizzybooks.Bizzy-BooksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bizzy Books.app/Bizzy Books";
+			};
+			name = Release;
+		};
+		EBE141D21D306E0400124174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bizzy BooksUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bizzybooks.Bizzy-BooksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bizzy Books";
+			};
+			name = Debug;
+		};
+		EBE141D31D306E0400124174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bizzy BooksUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bizzybooks.Bizzy-BooksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bizzy Books";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBE1419B1D306E0400124174 /* Build configuration list for PBXProject "Bizzy Books" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE141C91D306E0400124174 /* Debug */,
+				EBE141CA1D306E0400124174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE141CB1D306E0400124174 /* Build configuration list for PBXNativeTarget "Bizzy Books" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE141CC1D306E0400124174 /* Debug */,
+				EBE141CD1D306E0400124174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBE141CE1D306E0400124174 /* Build configuration list for PBXNativeTarget "Bizzy BooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE141CF1D306E0400124174 /* Debug */,
+				EBE141D01D306E0400124174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBE141D11D306E0400124174 /* Build configuration list for PBXNativeTarget "Bizzy BooksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE141D21D306E0400124174 /* Debug */,
+				EBE141D31D306E0400124174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBE141AA1D306E0400124174 /* Bizzy_Books.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBE141AB1D306E0400124174 /* Bizzy_Books.xcdatamodel */,
+			);
+			currentVersion = EBE141AB1D306E0400124174 /* Bizzy_Books.xcdatamodel */;
+			path = Bizzy_Books.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EBE141981D306E0400124174 /* Project object */;
+}
